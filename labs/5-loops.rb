@@ -16,6 +16,20 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 # 2 of Spades
 # 3 of Clubs
 # ...
+index = 0
+loop do 
+    puts
+    if index == ranks.size
+        break
+    end
+   rank = ranks[index]
+   puts "[rank] of clubs"
+
+index = index + 1
+end
+
+
+
 
 # CHALLENGE
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
