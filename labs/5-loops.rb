@@ -16,19 +16,11 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 # 2 of Spades
 # 3 of Clubs
 # ...
-index = 0
-loop do 
-    puts
-    if index == ranks.size
-        break
+for rank in ranks
+    for suit in suits
+      puts "#{rank} of #{suit}"
     end
-   rank = ranks[index]
-   puts [rank]
-   suit = suits[index]
-   puts "#{suit}"
-
-index = index + 1
-end
+  end
 
 
 
