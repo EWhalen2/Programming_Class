@@ -23,7 +23,9 @@ loop do
         break
     end
    rank = ranks[index]
-   puts "[rank] of clubs"
+   puts [rank]
+   suit = suits[index]
+   puts "#{suit}"
 
 index = index + 1
 end
