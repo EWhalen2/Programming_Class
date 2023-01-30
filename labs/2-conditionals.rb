@@ -40,7 +40,7 @@ elsif total == 2 || total == 3 || total == 12
 puts "YOU LOSE!"
 #otherwise, anything else
 else
-# puts "The Point IS {total}"
+puts "The Point IS #{total}"
 end
 
 nothing = nil
