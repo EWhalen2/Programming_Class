@@ -40,4 +40,5 @@ value = bitcoin * rate
 puts value
 #6. output:
 puts "1 bitcoin is valued at $#{rate} USD."
+puts "you have #{value} bitcoin."
 
